@@ -1,0 +1,24 @@
+.event-bg{
+    background: rgb(219, 217, 217);
+}
+
+.css-10o2lyd-MuiStack-root>.MuiTextField-root{
+    min-width: 0px !important;
+}
+
+.css-12sflcb-MuiStack-root>.MuiTextField-root{
+    min-width: 0px !important;
+}
+
+.css-sx5hge>.MuiTextField-root ,
+.css-sx5hge>.MuiPickersTextField-root
+{
+    min-width: 0px !important;
+}
+
+.css-10o2lyd-MuiStack-root , .css-12sflcb-MuiStack-root{
+    flex-direction: column !important;
+}
+.css-sx5hge , .css-fhle31{
+    flex-direction: column !important;
+}

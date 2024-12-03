@@ -1,0 +1,20 @@
+.hover-underline {
+    cursor: pointer;        
+    position: relative;  
+  }
+  
+  .hover-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;                /* Initially no underline */
+    height: 1px;             /* Thickness of the underline */
+    background-color: #fff;  /* Color of the underline */
+    transition: width 0.3s ease;  /* Smooth transition */
+  }
+  
+  .hover-underline:hover::after {
+    width: 100%;  /* Extend the underline on hover */
+  }
+  

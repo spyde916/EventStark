@@ -1,0 +1,44 @@
+.css-1d7njv1-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root .css-a7pbel-MuiLoadingButton-loadingIndicator ,.css-1pwrh3u .css-1fbr614{
+  right : 14px !important ;
+}
+
+.css-1d7njv1-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.Mui-disabled ,.css-1pwrh3u.Mui-disabled  {
+  color : #fff !important 
+}
+
+.gallary .swiper {
+    width: 100%;
+    padding-top: 20px;
+      padding-bottom: 35px;
+  }
+  
+
+  .swiper-slide button{
+    display: none;
+  }
+  .swiper-slide-active button{
+    display: flex;
+  }
+
+  
+  .gallary .swiper-container{
+    position: relative !important;
+  }
+
+  .swiper-pagination-bullets{
+    bottom : 10 !important
+  }
+
+
+
+  @media (max-width : 900px){
+    .gallary .swiper {
+      width: 100%;
+      padding: 0px;
+    }
+  }
+  
+  
+  
+
+ 
